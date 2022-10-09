@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Mulish&family=Nunito+Sans:wght@200&family=Playfair+Display:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar{
+    background-color: rgb(14, 13, 13);
+    width: 434px;
+    font-family: 'Aboreto', cursive;
+    height: 100vh;
+
+}
+
+.sidebar nav{
+    padding: 45px;
+} 
+
+.sidebar li{
+
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    /* background-color: rgb(77, 88, 72);
+     */
+    background-image: url("back.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    width: 85vw;
+}
+
+.container{
+    display: flex;
+} 
+
+.infocontainer{
+    /* background-color: green; */
+    height: 30vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.hello{
+    font-size: 65px;
+    color: white;
+}
+
+.name{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Aboreto', cursive;
+
+}
+.about{
+    color: white;
+    font-size: 40px;
+}
+
+.moreabout{
+    color: white;
+    font-size: 22px;
+    font-family: 'Mulish', sans-serif;
+    margin-top:23px ;
+
+}
+
+.buttons{
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 9px 14px;
+    font-weight: bold;
+    font-size: 23px;
+    color: white;
+    background-color: rgb(8, 8, 8);
+    margin: 0 3px;
+    border-radius: 22px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
+
+.devpic img{
+    height: 30vh;
+     
+}
+.devpic img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+        
+}
